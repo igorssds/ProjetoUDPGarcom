@@ -74,6 +74,20 @@ namespace Cozinha
             }
             return id;
         }
+
+        public static Pedido GetFindByid(int idrecebido)
+        {
+            Pedido[] pedidos = Listar();
+            String nome = "";
+            for (int i = 0; i < pedidos.Length; i++)
+            {
+                if (pedidos[i].Id == idrecebido)
+                {
+                    return pedidos[i];
+                }
+            }
+            return null;
+        }
     }
 }
 

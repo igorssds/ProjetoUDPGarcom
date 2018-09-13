@@ -11,6 +11,8 @@ namespace Cozinha
         public int Mesa { get; set; }
         public Pedido Pedido { get; set; }
 
+
+
         public PedidoMesa(int mesa, Pedido pedido)
         {
             Mesa = mesa;

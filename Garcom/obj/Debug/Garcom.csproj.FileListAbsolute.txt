@@ -18,3 +18,13 @@ C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj
 C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj\Debug\Garcom.csproj.GenerateResource.Cache
 C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj\Debug\Garcom.exe
 C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj\Debug\Garcom.pdb
+C:\workspace\ProjetoUDPFastFood\Garcom\bin\Debug\Garcom.exe.config
+C:\workspace\ProjetoUDPFastFood\Garcom\bin\Debug\Garcom.exe
+C:\workspace\ProjetoUDPFastFood\Garcom\bin\Debug\Garcom.pdb
+C:\workspace\ProjetoUDPFastFood\Garcom\bin\Debug\LibUDP.dll
+C:\workspace\ProjetoUDPFastFood\Garcom\obj\Debug\Garcom.csprojResolveAssemblyReference.cache
+C:\workspace\ProjetoUDPFastFood\Garcom\obj\Debug\Garcom.Form1.resources
+C:\workspace\ProjetoUDPFastFood\Garcom\obj\Debug\Garcom.Properties.Resources.resources
+C:\workspace\ProjetoUDPFastFood\Garcom\obj\Debug\Garcom.csproj.GenerateResource.Cache
+C:\workspace\ProjetoUDPFastFood\Garcom\obj\Debug\Garcom.exe
+C:\workspace\ProjetoUDPFastFood\Garcom\obj\Debug\Garcom.pdb
