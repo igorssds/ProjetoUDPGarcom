@@ -1,0 +1,10 @@
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\bin\Debug\Cozinha.exe.config
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\bin\Debug\Cozinha.exe
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\bin\Debug\Cozinha.pdb
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\bin\Debug\LibUDP.dll
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\obj\Debug\Cozinha.csprojResolveAssemblyReference.cache
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\obj\Debug\Cozinha.Form1.resources
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\obj\Debug\Cozinha.Properties.Resources.resources
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\obj\Debug\Cozinha.csproj.GenerateResource.Cache
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\obj\Debug\Cozinha.exe
+c:\users\aluno\documents\visual studio 2017\Projects\Cozinha\Cozinha\obj\Debug\Cozinha.pdb
