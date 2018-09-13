@@ -19,7 +19,7 @@ namespace Cozinha
 
         public static Pedido[] Listar()
         {
-            Pedido[] pedidos = new Pedido[32];
+            Pedido[] pedidos = new Pedido[30];
 
             pedidos[0] = new Pedido { Nome = "Coca Cola", Id = 20 };
             pedidos[1] = new Pedido { Nome = "Jiló", Id = 10 };
@@ -51,9 +51,6 @@ namespace Cozinha
             pedidos[27] = new Pedido { Nome = "Frango Assado", Id = 96 };
             pedidos[28] = new Pedido { Nome = "Pastel", Id = 39 };
             pedidos[29] = new Pedido { Nome = "Açai", Id = 2 };
-
-            pedidos[30] = new Pedido { Nome = "Anã", Id = 69 };
-            pedidos[31] = new Pedido { Nome = "Patrick", Id = 24 };
 
             Array.Sort(pedidos, (a, b) =>
             {

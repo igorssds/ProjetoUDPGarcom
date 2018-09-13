@@ -96,7 +96,6 @@
             this.label1.Size = new System.Drawing.Size(93, 13);
             this.label1.TabIndex = 6;
             this.label1.Text = "Numero da mesa :";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblNmrMesa
             // 

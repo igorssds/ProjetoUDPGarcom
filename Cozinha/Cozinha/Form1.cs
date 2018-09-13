@@ -18,29 +18,20 @@ namespace Cozinha
         {
             InitializeComponent();
 
-            socket = new LibUDP.UDPSocket(MensagemRecebida, 6200);
+            socket = new LibUDP.UDPSocket(MensagemRecebida, 6001);
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        protected override void OnFormClosing(FormClosingEventArgs e)
         {
-
+            base.OnFormClosing(e);
+            socket.Close();
+            socket.Dispose();
         }
 
         private void MensagemRecebida(byte[] buffer, int size, string ip, int port)
         {
-            string mensagem = Encoding.UTF8.GetString(buffer, 0, size);
+            int mesa = buffer[0];
 
-            lblNmrMesa.Text = buffer[0].ToString();
-
-            int p = buffer[1];
-            foreach (Pedido id in Pedido.)
-            {
-
-            }
-        }
-
-        private void pedidoRecebido_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
         }
     }
