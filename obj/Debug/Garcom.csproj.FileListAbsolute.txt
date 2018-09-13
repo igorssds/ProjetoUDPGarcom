@@ -1,0 +1,20 @@
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\bin\Debug\Garcom.exe.config
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\bin\Debug\Garcom.exe
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\bin\Debug\Garcom.pdb
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\obj\Debug\Garcom.csprojResolveAssemblyReference.cache
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\obj\Debug\Garcom.Form1.resources
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\obj\Debug\Garcom.Properties.Resources.resources
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\obj\Debug\Garcom.csproj.GenerateResource.Cache
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\obj\Debug\Garcom.exe
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\obj\Debug\Garcom.pdb
+c:\users\aluno\documents\visual studio 2017\Projects\Garcom\Garcom\bin\Debug\LibUDP.dll
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\bin\Debug\Garcom.exe.config
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\bin\Debug\Garcom.exe
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\bin\Debug\Garcom.pdb
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\bin\Debug\LibUDP.dll
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj\Debug\Garcom.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj\Debug\Garcom.Form1.resources
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj\Debug\Garcom.Properties.Resources.resources
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj\Debug\Garcom.csproj.GenerateResource.Cache
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj\Debug\Garcom.exe
+C:\Users\aluno\Downloads\ProjetoUDPFastFood-master\ProjetoUDPFastFood-master\obj\Debug\Garcom.pdb
