@@ -17,3 +17,12 @@ C:\workspace\ProjetoUDPFastFood\Cozinha\Cozinha\obj\Debug\Cozinha.Properties.Res
 C:\workspace\ProjetoUDPFastFood\Cozinha\Cozinha\obj\Debug\Cozinha.csproj.GenerateResource.Cache
 C:\workspace\ProjetoUDPFastFood\Cozinha\Cozinha\obj\Debug\Cozinha.exe
 C:\workspace\ProjetoUDPFastFood\Cozinha\Cozinha\obj\Debug\Cozinha.pdb
+C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\bin\Debug\Cozinha.exe.config
+C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\bin\Debug\Cozinha.exe
+C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\bin\Debug\Cozinha.pdb
+C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.csprojResolveAssemblyReference.cache
+C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.Form1.resources
+C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.Properties.Resources.resources
+C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.csproj.GenerateResource.Cache
+C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.exe
+C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.pdb

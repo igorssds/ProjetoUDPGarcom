@@ -43,5 +43,20 @@ namespace Cozinha
                 count++;
             }
         }
+
+        private void btnPronto_Click(object sender, EventArgs e)
+        {
+            if (pedidoRecebido.SelectedItem != null)
+            {
+                pedidoPronto.Items.Add(pedidoRecebido.SelectedItem);
+                pedidoRecebido.Items.RemoveAt(pedidoRecebido.SelectedIndex);
+            }
+
+        }
+
+        private void pedidoPronto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

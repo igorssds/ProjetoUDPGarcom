@@ -41,8 +41,7 @@ namespace Garcom
             {
                 itensPedidos.Items.RemoveAt(itensPedidos.SelectedIndex);
             }
-
-            
+           
         }
 
         private void btnEnviar_Click(object sender, EventArgs e)

@@ -62,6 +62,7 @@
             this.pedidoPronto.Name = "pedidoPronto";
             this.pedidoPronto.Size = new System.Drawing.Size(158, 186);
             this.pedidoPronto.TabIndex = 2;
+            this.pedidoPronto.SelectedIndexChanged += new System.EventHandler(this.pedidoPronto_SelectedIndexChanged);
             // 
             // btnPronto
             // 
@@ -71,6 +72,7 @@
             this.btnPronto.TabIndex = 3;
             this.btnPronto.Text = ">>";
             this.btnPronto.UseVisualStyleBackColor = true;
+            this.btnPronto.Click += new System.EventHandler(this.btnPronto_Click);
             // 
             // aa
             // 
