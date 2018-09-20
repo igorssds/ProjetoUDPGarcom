@@ -14,6 +14,8 @@ namespace Cozinha
     {
         private LibUDP.UDPSocket socket;
 
+        int mesa = 0;
+        int qntdade = 0;
 
         public Form1()
         {
@@ -31,12 +33,12 @@ namespace Cozinha
 
         private void MensagemRecebida(byte[] buffer, int size, string ip, int port)
         {
-            int mesa = buffer[0];
-            int qntdade = buffer[1];
+            mesa = buffer[0];
+            qntdade = buffer[1];
 
             int count = 2;
 
-            for (int i = 0; i< qntdade; i++ )
+            for (int i = 0; i < qntdade; i++)
             {
                 int id = (int)buffer[count];
                 pedidoRecebido.Items.Add(new PedidoMesa(mesa, Pedido.GetFindByid(id)));
@@ -56,7 +58,31 @@ namespace Cozinha
 
         private void pedidoPronto_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void enviarBalcao_Click(object sender, EventArgs e)
+        {
+            Byte[] bytes = new Byte[pedidoPronto.Items.Count + 2];
+
+            bytes[0] = (byte)mesa;
+            bytes[1] = (byte)qntdade;
+
+
+            int count = 0;
+
+            for (int i = 2; i < pedidoPronto.Items.Count + 2; i++)
+            {
+
+                bytes[i] = (byte)((PedidoMesa)pedidoPronto.Items[count]).getId();
+                count++;
+            }
+
+            string ip = Ip.Text;
+
+            socket.Send(bytes, ip, 6001);
+
         }
     }
 }
+

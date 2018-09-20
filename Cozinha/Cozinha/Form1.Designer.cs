@@ -46,6 +46,7 @@
             this.enviarBalcao.TabIndex = 0;
             this.enviarBalcao.Text = "Enviar";
             this.enviarBalcao.UseVisualStyleBackColor = true;
+            this.enviarBalcao.Click += new System.EventHandler(this.enviarBalcao_Click);
             // 
             // pedidoRecebido
             // 
