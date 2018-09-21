@@ -26,3 +26,14 @@ C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha
 C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.csproj.GenerateResource.Cache
 C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.exe
 C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.pdb
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\bin\Debug\Cozinha.exe.config
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\bin\Debug\Cozinha.exe
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\bin\Debug\Cozinha.pdb
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.csprojAssemblyReference.cache
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.Form1.resources
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.Properties.Resources.resources
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.csproj.GenerateResource.cache
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.csproj.CoreCompileInputs.cache
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.csproj.CopyComplete
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.exe
+C:\workspace\UDP\ProjetoUDPGarcom\Cozinha\Cozinha\obj\Debug\Cozinha.pdb

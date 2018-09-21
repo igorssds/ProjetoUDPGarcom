@@ -13,14 +13,13 @@ namespace Cozinha
     public partial class Form1 : Form
     {
         private LibUDP.UDPSocket socket;
-
+        
         int mesa = 0;
         int qntdade = 0;
-
         public Form1()
         {
             InitializeComponent();
-
+            
             socket = new LibUDP.UDPSocket(MensagemRecebida, 6001);
         }
 
@@ -48,6 +47,7 @@ namespace Cozinha
 
         private void btnPronto_Click(object sender, EventArgs e)
         {
+  
             if (pedidoRecebido.SelectedItem != null)
             {
                 pedidoPronto.Items.Add(pedidoRecebido.SelectedItem);
@@ -63,19 +63,16 @@ namespace Cozinha
 
         private void enviarBalcao_Click(object sender, EventArgs e)
         {
-            Byte[] bytes = new Byte[pedidoPronto.Items.Count + 2];
+            Byte[] bytes = new Byte[pedidoPronto.Items.Count];
 
-            bytes[0] = (byte)mesa;
-            bytes[1] = (byte)qntdade;
-
-
-            int count = 0;
-
-            for (int i = 2; i < pedidoPronto.Items.Count + 2; i++)
+           
+            for (int i = 0; i < pedidoPronto.Items.Count; i++)
             {
 
-                bytes[i] = (byte)((PedidoMesa)pedidoPronto.Items[count]).getId();
-                count++;
+                
+                bytes[i] = (byte)((PedidoMesa)pedidoPronto.Items[i]).getId();
+    
+
             }
 
             string ip = Ip.Text;

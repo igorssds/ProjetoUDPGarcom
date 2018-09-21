@@ -24,6 +24,11 @@ namespace Cozinha
             return Pedido.Id;
         }
 
+        public int getMesa()
+        {
+            return Mesa;
+        }
+
         public override string ToString()
         {
             return Mesa + " - " + Pedido;

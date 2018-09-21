@@ -38,3 +38,15 @@ C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.Propertie
 C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.csproj.GenerateResource.Cache
 C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.exe
 C:\workspace\ProjetoUDPGarcom\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.pdb
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\bin\Debug\Garcom.exe.config
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\bin\Debug\Garcom.exe
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\bin\Debug\Garcom.pdb
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\bin\Debug\LibUDP.dll
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.csprojAssemblyReference.cache
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.Form1.resources
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.Properties.Resources.resources
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.csproj.GenerateResource.cache
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.csproj.CoreCompileInputs.cache
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.csproj.CopyComplete
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.exe
+C:\workspace\UDP\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.pdb
