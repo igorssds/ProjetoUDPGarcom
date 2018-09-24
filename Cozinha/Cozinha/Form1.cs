@@ -16,6 +16,8 @@ namespace Cozinha
         
         int mesa = 0;
         int qntdade = 0;
+        bool validarMsgRecebida = true;
+
         public Form1()
         {
             InitializeComponent();
@@ -32,17 +34,21 @@ namespace Cozinha
 
         private void MensagemRecebida(byte[] buffer, int size, string ip, int port)
         {
-            mesa = buffer[0];
-            qntdade = buffer[1];
-
-            int count = 2;
-
-            for (int i = 0; i < qntdade; i++)
+            if (validarMsgRecebida)
             {
-                int id = (int)buffer[count];
-                pedidoRecebido.Items.Add(new PedidoMesa(mesa, Pedido.GetFindByid(id)));
-                count++;
+                mesa = buffer[0];
+                qntdade = buffer[1];
+
+                int count = 2;
+
+                for (int i = 0; i < qntdade; i++)
+                {
+                    int id = (int)buffer[count];
+                    pedidoRecebido.Items.Add(new PedidoMesa(mesa, Pedido.GetFindByid(id)));
+                    count++;
+                }
             }
+                
         }
 
         private void btnPronto_Click(object sender, EventArgs e)
@@ -67,16 +73,13 @@ namespace Cozinha
 
            
             for (int i = 0; i < pedidoPronto.Items.Count; i++)
-            {
-
-                
-                bytes[i] = (byte)((PedidoMesa)pedidoPronto.Items[i]).getId();
-    
-
+            {                
+                bytes[i] = (byte)((PedidoMesa)pedidoPronto.Items[i]).getMesa();
+        
             }
 
             string ip = Ip.Text;
-
+            validarMsgRecebida = false;
             socket.Send(bytes, ip, 6001);
 
         }

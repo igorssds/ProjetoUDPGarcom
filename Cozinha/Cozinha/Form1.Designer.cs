@@ -34,15 +34,13 @@
             this.btnPronto = new System.Windows.Forms.Button();
             this.aa = new System.Windows.Forms.Label();
             this.Ip = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblNmrMesa = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // enviarBalcao
             // 
-            this.enviarBalcao.Location = new System.Drawing.Point(481, 216);
+            this.enviarBalcao.Location = new System.Drawing.Point(481, 107);
             this.enviarBalcao.Name = "enviarBalcao";
-            this.enviarBalcao.Size = new System.Drawing.Size(75, 23);
+            this.enviarBalcao.Size = new System.Drawing.Size(75, 83);
             this.enviarBalcao.TabIndex = 0;
             this.enviarBalcao.Text = "Enviar";
             this.enviarBalcao.UseVisualStyleBackColor = true;
@@ -91,31 +89,11 @@
             this.Ip.Size = new System.Drawing.Size(100, 20);
             this.Ip.TabIndex = 5;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(292, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Numero da mesa :";
-            // 
-            // lblNmrMesa
-            // 
-            this.lblNmrMesa.AutoSize = true;
-            this.lblNmrMesa.Location = new System.Drawing.Point(391, 12);
-            this.lblNmrMesa.Name = "lblNmrMesa";
-            this.lblNmrMesa.Size = new System.Drawing.Size(10, 13);
-            this.lblNmrMesa.TabIndex = 7;
-            this.lblNmrMesa.Text = "-";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(568, 261);
-            this.Controls.Add(this.lblNmrMesa);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.Ip);
             this.Controls.Add(this.aa);
             this.Controls.Add(this.btnPronto);
@@ -123,7 +101,7 @@
             this.Controls.Add(this.pedidoRecebido);
             this.Controls.Add(this.enviarBalcao);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Cozinha";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,8 +115,6 @@
         private System.Windows.Forms.Button btnPronto;
         private System.Windows.Forms.Label aa;
         private System.Windows.Forms.TextBox Ip;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblNmrMesa;
     }
 }
 

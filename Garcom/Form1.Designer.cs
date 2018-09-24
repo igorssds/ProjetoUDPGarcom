@@ -136,7 +136,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ipEnvio);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Garçom";
             this.ResumeLayout(false);
             this.PerformLayout();
 
