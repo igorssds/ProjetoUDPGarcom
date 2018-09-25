@@ -18,17 +18,33 @@ namespace Balcao
         public Form1()
         {
             InitializeComponent();
+            socket = new LibUDP.UDPSocket(MensagemRecebida, 6002);
+        }
+
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
+            socket.Close();
+            socket.Dispose();
         }
 
 
         private void MensagemRecebida(byte[] buffer, int size, string ip, int port)
         {
-            int qtd = buffer.Length;
+            
+            int validarMesa = 0;
 
-            for (int i = 0; i < qtd; i++)
+            for (int i = 0; i < size; i++)
             {
                 buffer[i] = (byte)mesa;
-                pedidoBalcao.Items.Add(new PedidoMesa(mesa, Pedido.GetFindByid(id)));
+
+                if(validarMesa != mesa)
+                {
+                    pedidoBalcao.Items.Add(mesa);
+                    validarMesa = mesa;
+                }
+                
             }
 
 

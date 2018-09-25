@@ -71,8 +71,6 @@ namespace Cozinha
         {
             Byte[] bytes = new Byte[pedidoPronto.Items.Count+1];
 
-            int primeiraMesa = 0;
-            bytes[0] = (byte)primeiraMesa;
 
             for (int i = 1; i < pedidoPronto.Items.Count+1; i++)
             {                
