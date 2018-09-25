@@ -69,17 +69,18 @@ namespace Cozinha
 
         private void enviarBalcao_Click(object sender, EventArgs e)
         {
-            Byte[] bytes = new Byte[pedidoPronto.Items.Count];
+            Byte[] bytes = new Byte[pedidoPronto.Items.Count+1];
 
-           
-            for (int i = 0; i < pedidoPronto.Items.Count; i++)
+            int primeiraMesa = 0;
+            bytes[0] = (byte)primeiraMesa;
+
+            for (int i = 1; i < pedidoPronto.Items.Count+1; i++)
             {                
-                bytes[i] = (byte)((PedidoMesa)pedidoPronto.Items[i]).getMesa();
+                bytes[i] = (byte)((PedidoMesa)pedidoPronto.Items[i]).getId();
         
             }
-
-            string ip = Ip.Text;
             validarMsgRecebida = false;
+            string ip = Ip.Text;
             socket.Send(bytes, ip, 6001);
 
         }
