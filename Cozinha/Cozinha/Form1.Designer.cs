@@ -53,6 +53,7 @@
             this.pedidoRecebido.Name = "pedidoRecebido";
             this.pedidoRecebido.Size = new System.Drawing.Size(168, 186);
             this.pedidoRecebido.TabIndex = 1;
+            this.pedidoRecebido.DoubleClick += new System.EventHandler(this.btnPronto_Click);
             // 
             // pedidoPronto
             // 
