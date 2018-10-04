@@ -62,7 +62,6 @@
             this.pedidoPronto.Name = "pedidoPronto";
             this.pedidoPronto.Size = new System.Drawing.Size(158, 186);
             this.pedidoPronto.TabIndex = 2;
-            this.pedidoPronto.SelectedIndexChanged += new System.EventHandler(this.pedidoPronto_SelectedIndexChanged);
             // 
             // btnPronto
             // 

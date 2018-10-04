@@ -13,11 +13,11 @@ namespace Cozinha
     public partial class Form1 : Form
     {
         private LibUDP.UDPSocket socket;
-        
+
         public Form1()
         {
             InitializeComponent();
-            
+
             socket = new LibUDP.UDPSocket(MensagemRecebida, 6001);
         }
 
@@ -30,25 +30,19 @@ namespace Cozinha
 
         private void MensagemRecebida(byte[] buffer, int size, string ip, int port)
         {
-            
-                int mesa = buffer[0];
-                int qntdade = buffer[1];
+            int mesa = buffer[0];
+            int qntdade = buffer[1];
 
-                int count = 2;
-
-                for (int i = 0; i < qntdade; i++)
-                {
-                    int id = (int)buffer[count];
-                    pedidoRecebido.Items.Add(new PedidoMesa(mesa, Pedido.GetFindByid(id)));
-                    count++;
-                }
-            
-                
+            for (int i = 0; i < qntdade; i++)
+            {
+                int id = (int)buffer[i + 2];
+                pedidoRecebido.Items.Add(new PedidoMesa(mesa, Pedido.GetFindByid(id)));
+            }
         }
 
         private void btnPronto_Click(object sender, EventArgs e)
         {
-  
+
             if (pedidoRecebido.SelectedItem != null)
             {
                 pedidoPronto.Items.Add(pedidoRecebido.SelectedItem);
@@ -57,37 +51,28 @@ namespace Cozinha
 
         }
 
-        private void pedidoPronto_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void enviarBalcao_Click(object sender, EventArgs e)
         {
+            PedidoMesa pedido = (PedidoMesa)pedidoPronto.SelectedItem;
 
-            // ---------JEITO CERTO ---------------
-           // PedidoMesa p = (PedidoMesa)pedidoPronto.SelectedItem;
-
-            //p.
-
-            Byte[] bytes = new Byte[pedidoPronto.Items.Count+2];
-
-            
-            int count = 0;
-
-            for (int i = 2; i < pedidoPronto.Items.Count+2; i++)
-            {                
-                bytes[i] = (byte)((PedidoMesa)pedidoPronto.Items[count]).getId();
-
-                count++;
+            if (pedido == null)
+            {
+                return;
             }
-            
+
+            byte[] bytes = new byte[3];
+            bytes[0] = (byte)pedido.Mesa;
+            bytes[1] = 1;
+            bytes[2] = (byte)pedido.Pedido.Id;
+
+            pedidoPronto.Items.RemoveAt(pedidoPronto.SelectedIndex);
+
             string ip = Ip.Text;
-            socket.Send(bytes, ip, 6001);
+            socket.Send(bytes, ip, 6002);
 
         }
 
-       
+
     }
 }
 

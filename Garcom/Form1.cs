@@ -52,21 +52,14 @@ namespace Garcom
             bytes[0] = (byte)int.Parse(nmrDaMesa.Text);
             bytes[1] = (byte)itensPedidos.Items.Count;
 
-            int count = 0;
-
-            for (int i = 2; i < itensPedidos.Items.Count+2 ; i++)
+            for (int i = 0; i < itensPedidos.Items.Count; i++)
             {
-
-                bytes[i] = (byte)((Pedido)itensPedidos.Items[count]).Id;
-                count++;
+                bytes[i + 2] = (byte)((Pedido)itensPedidos.Items[i]).Id;
             }
 
             string ip = ipEnvio.Text;
            
             socket.Send(bytes, ip, 6001);
-
         }
-
-       
     }
 }

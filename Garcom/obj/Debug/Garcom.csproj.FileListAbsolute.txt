@@ -60,3 +60,13 @@ C:\wor\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.Properties.Resources.resources
 C:\wor\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.csproj.GenerateResource.Cache
 C:\wor\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.exe
 C:\wor\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.pdb
+C:\work\ProjetoUDPGarcom\Garcom\bin\Debug\Garcom.exe.config
+C:\work\ProjetoUDPGarcom\Garcom\bin\Debug\Garcom.exe
+C:\work\ProjetoUDPGarcom\Garcom\bin\Debug\Garcom.pdb
+C:\work\ProjetoUDPGarcom\Garcom\bin\Debug\LibUDP.dll
+C:\work\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.csprojResolveAssemblyReference.cache
+C:\work\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.Form1.resources
+C:\work\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.Properties.Resources.resources
+C:\work\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.csproj.GenerateResource.Cache
+C:\work\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.exe
+C:\work\ProjetoUDPGarcom\Garcom\obj\Debug\Garcom.pdb
